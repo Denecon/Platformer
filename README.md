@@ -6,12 +6,19 @@ Required art:
 		-Player/Character
 		-Gun
 		-Bullet
+        
+    screens:
+		-start
+		-end
+		-game over
+		-level selection 
 
 	character animations:
 		-walk
 		-jump
-		-(crouch)
-		-(run)
+		-run
+		-death 
+		-(crouch)[NOT NEEDED!]
 
 	3 types:
 
