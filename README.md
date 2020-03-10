@@ -22,8 +22,15 @@ Required art:
 		-Spikes
 		-Background
 
+	2 types:
+
+		-Enemy's (Less Important)
+
 	1 type:
 
 		-Torch
 		-Coins
+		-Finish
+
+
 
