@@ -61,6 +61,25 @@ public class Player : KinematicBody2D
             {
                 velocity.x += walkSpeed;
             }
+        
+        var animatedSprite = GetNode<AnimatedSprite>("PlayerSprite");
+         
+        if (velocity.Length() > 0)
+        {
+            animatedSprite.Play();
+        }
+        else
+        {
+            animatedSprite.Stop();
+        }
+        
+        if (velocity.x != 0)
+        {
+            animatedSprite.Animation = "Idle";
+            // See the note below about boolean assignment
+            animatedSprite.FlipH = velocity.x < 0;
+            animatedSprite.FlipV = false;
+        }
     }
     
     

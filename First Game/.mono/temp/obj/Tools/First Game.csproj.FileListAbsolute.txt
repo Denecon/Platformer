@@ -1,0 +1,6 @@
+C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game\.mono\temp\bin\Tools\First Game.dll
+C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game\.mono\temp\bin\Tools\First Game.pdb
+C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game\.mono\temp\obj\Tools\First Game.csprojAssemblyReference.cache
+C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game\.mono\temp\obj\Tools\First Game.csproj.CoreCompileInputs.cache
+C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game\.mono\temp\obj\Tools\First Game.dll
+C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game\.mono\temp\obj\Tools\First Game.pdb
