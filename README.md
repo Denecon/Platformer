@@ -8,17 +8,17 @@ Required art:
 		-Bullet
         
     screens:
-        -start
-        -end
-        -game over
-        -level selection 
+		-start
+		-end
+		-game over
+		-level selection 
 
 	character animations:
 		-walk
 		-jump
 		-run
-        -death 
-        -(crouch)[NOT NEEDED!]
+		-death 
+		-(crouch)[NOT NEEDED!]
 
 	3 types:
 
