@@ -27,13 +27,15 @@ public class Player : KinematicBody2D
         bool right = Input.IsActionPressed("ui_right");    
         bool jump = Input.IsActionPressed("ui_up");
         bool pause = Input.IsActionPressed("ui_pause");
-        bool shoot = Input.IsActionPressed("ui_fire");
         
         if (pause)
         {
-            GetTree().ChangeScene("res://Main Screen/PauseScreen.tscn");
+            GetParent().GetTree().Paused = true;
+            GetNode<Control>("Pause").Show();
+            
+            // GetTree().ChangeScene("res://Main Screen/PauseScreen.tscn");
         }
-
+        
         if (jump && IsOnFloor())
         {
             jumping = true;
@@ -81,7 +83,13 @@ public class Player : KinematicBody2D
             animatedSprite.FlipV = false;
         }
     }
-    
+
+
+    public void onContinueButtonpressed()
+    {
+        GetNode<Control>("Pause").Hide();
+        GetParent().GetTree().Paused = false;
+    }
     
 
     public override void _PhysicsProcess(float delta)

@@ -16,55 +16,85 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1970.0
+margin_bottom = 1080.0
+color = Color( 0, 0, 0, 1 )
+
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
-margin_right = 1074.0
-margin_bottom = 600.0
+margin_right = 1970.0
+margin_bottom = 1080.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
-margin_right = 537.0
-margin_bottom = 600.0
+margin_right = 983.0
+margin_bottom = 1080.0
+size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 50
 
-[node name="Logo" type="TextureRect" parent="HBoxContainer/VBoxContainer"]
-margin_right = 537.0
-margin_bottom = 129.0
+[node name="CenterContainer" type="CenterContainer" parent="HBoxContainer/VBoxContainer"]
+margin_right = 983.0
+margin_bottom = 515.0
+size_flags_vertical = 3
+
+[node name="Logo" type="TextureRect" parent="HBoxContainer/VBoxContainer/CenterContainer"]
+margin_left = 223.0
+margin_top = 193.0
+margin_right = 760.0
+margin_bottom = 322.0
+size_flags_vertical = 3
 texture = ExtResource( 2 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/VBoxContainer"]
-margin_top = 179.0
-margin_right = 537.0
-margin_bottom = 600.0
+margin_top = 565.0
+margin_right = 983.0
+margin_bottom = 1080.0
 size_flags_vertical = 3
 custom_constants/separation = 30
 
-[node name="Continue" type="TextureButton" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
-margin_right = 537.0
+[node name="CenterContainer" type="CenterContainer" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
+margin_right = 983.0
+margin_bottom = 36.0
+
+[node name="Continue" type="TextureButton" parent="HBoxContainer/VBoxContainer/VBoxContainer/CenterContainer"]
+margin_left = 396.0
+margin_right = 587.0
 margin_bottom = 36.0
 texture_normal = ExtResource( 3 )
 
-[node name="NewGame" type="TextureButton" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
+[node name="CenterContainer2" type="CenterContainer" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 66.0
-margin_right = 537.0
+margin_right = 983.0
 margin_bottom = 102.0
+
+[node name="NewGame" type="TextureButton" parent="HBoxContainer/VBoxContainer/VBoxContainer/CenterContainer2"]
+margin_left = 372.0
+margin_right = 610.0
+margin_bottom = 36.0
 texture_normal = ExtResource( 6 )
 
-[node name="Options" type="TextureButton" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
+[node name="CenterContainer3" type="CenterContainer" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 132.0
-margin_right = 537.0
+margin_right = 983.0
 margin_bottom = 178.0
+
+[node name="Options" type="TextureButton" parent="HBoxContainer/VBoxContainer/VBoxContainer/CenterContainer3"]
+margin_left = 408.0
+margin_right = 574.0
+margin_bottom = 46.0
 texture_normal = ExtResource( 5 )
 
 [node name="CenterContainer" type="CenterContainer" parent="HBoxContainer"]
-margin_left = 541.0
-margin_right = 1074.0
-margin_bottom = 600.0
+margin_left = 987.0
+margin_right = 1970.0
+margin_bottom = 1080.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Characters" type="TextureRect" parent="HBoxContainer/CenterContainer"]
-margin_top = 130.0
-margin_right = 533.0
-margin_bottom = 469.0
+margin_left = 225.0
+margin_top = 370.0
+margin_right = 758.0
+margin_bottom = 709.0
 texture = ExtResource( 4 )
-[connection signal="pressed" from="HBoxContainer/VBoxContainer/VBoxContainer/NewGame" to="." method="onNewGamepressed"]
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/VBoxContainer/CenterContainer2/NewGame" to="." method="onNewGamepressed"]

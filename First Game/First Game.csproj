@@ -58,6 +58,7 @@
     <Compile Include="Finish\Finish.cs" />
     <Compile Include="Main%20Screen\MainScreen.cs" />
     <Compile Include="Main%20Screen\PauseScreen.cs" />
+    <Compile Include="Pause.cs" />
     <Compile Include="Player\Bullet.cs" />
     <Compile Include="Player\Gun.cs" />
     <Compile Include="Player\Player.cs" />

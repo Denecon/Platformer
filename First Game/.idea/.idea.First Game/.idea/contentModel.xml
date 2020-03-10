@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\denzel.verheijen\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\denzel.verheijen\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_First Game.279565590.00" t="ExcludeRecursive" />
-    <e p="C:\Users\denzel.verheijen\Documents\GitHub\Platformer\First Game" t="IncludeRecursive">
+    <e p="C:\Users\Dennenappel\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Dennenappel\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_First Game.830257912.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Dennenappel\Documents\GitHub\Platformer\First Game" t="IncludeRecursive">
       <e p=".mono\temp\bin" t="ExcludeRecursive" />
       <e p=".mono\temp\obj" t="ExcludeRecursive" />
       <e p="Coins" t="Include">
@@ -22,6 +22,7 @@
         <e p="PauseScreen.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Pause.cs" t="Include" />
       <e p="Player" t="Include">
         <e p="Bullet.cs" t="Include" />
         <e p="Gun.cs" t="Include" />
