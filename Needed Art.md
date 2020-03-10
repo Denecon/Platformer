@@ -6,12 +6,13 @@ Required art:
 		-Player/Character
 		-Gun
 		-Bullet
+        -Startup Screen
 
 	character animations:
 		-walk
 		-jump
-		-(crouch)
-		-(run)
+        -run
+		-(crouch)[Moet niet!]	
 
 	3 types:
 
