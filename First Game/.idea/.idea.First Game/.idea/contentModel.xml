@@ -9,6 +9,9 @@
       <e p="Coins" t="Include">
         <e p="Coin.cs" t="Include" />
       </e>
+      <e p="Enemys" t="Include">
+        <e p="Spikes.cs" t="Include" />
+      </e>
       <e p="Finish" t="Include">
         <e p="Finish.cs" t="Include" />
       </e>

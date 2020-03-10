@@ -11,13 +11,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Finish/Finish.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/World/World.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coins/Coin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Enemys/Spikes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Main Screen/MainScreen.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Main Screen/MainScreen.cs" />
         <option value="$PROJECT_DIR$/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Finish/Finish.cs" />
+        <option value="$PROJECT_DIR$/Coins/Coin.cs" />
+        <option value="$PROJECT_DIR$/Enemys/Spikes.cs" />
       </list>
     </option>
   </component>
@@ -55,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583825194112</updated>
-      <workItem from="1583825203669" duration="812000" />
+      <workItem from="1583825203669" duration="2363000" />
     </task>
     <servers />
   </component>

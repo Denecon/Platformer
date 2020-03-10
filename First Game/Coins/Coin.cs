@@ -18,7 +18,7 @@ public class Coin : Area2D
 //      
 //  }
 
-    public void onCoinbodyentered(PhysicsBody2D body)
+    public void onCoinareaentered(PhysicsBody2D body)
     {
         Hide();
         EmitSignal("CoinPickup");

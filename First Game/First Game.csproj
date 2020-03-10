@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Coins\Coin.cs" />
+    <Compile Include="Enemys\Spikes.cs" />
     <Compile Include="Finish\Finish.cs" />
     <Compile Include="Main%20Screen\MainScreen.cs" />
     <Compile Include="Main%20Screen\PauseScreen.cs" />
